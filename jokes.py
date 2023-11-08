@@ -1,4 +1,4 @@
-import requests
+import request
 
 url="https://official-joke-api.appspot.com/random_joke"
 json_data=requests.get(url).json()
